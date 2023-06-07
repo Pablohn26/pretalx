@@ -3,6 +3,11 @@
 Release Notes
 =============
 
+- :bug:`1498` Talks that were scheduled, but not confirmed by the speaker yet would be shown in the public speaker profile.
+- :feature:`-` pretalx always showed the anonymised version of proposals if there was one. Now it reverts to the non-anonymised one once the anonymisation period is over.
+- :feature:`-` Organiser pages for speakers now use their alphanumeric ``code`` identifier in the URL rather than the numeric ID, matching the public and API pages.
+- :feature:`1347` The submission type and track lists now include links to the pre-filtered list of proposals.
+- :feature:`889` A talk's duration is now listed on the talk acceptance site to avoid misunderstandings early on.
 - :feature:`-` The review dashboard can now be filtered by question answers, just like the submission list.
 - :feature:`-` New anonymisation indicator in proposal list.
 - :feature:`1418` Speaker availabilities are now limited to the sum of all room availabilites.
